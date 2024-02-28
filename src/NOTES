@@ -1,0 +1,9 @@
+Index.html main file where the code starts.
+  <!-- title of the application page -->
+  <title>Practice DCoE</title>
+  <!-- simple routing configuration  and the blow line is default -->
+  <base href="/">
+  <!-- main body of the code -->
+  <body>
+    <app-root></app-root>
+  </body>
