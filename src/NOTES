@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- to create new project, takes time to install node modules -->
 ng new "project name"
 
@@ -29,3 +30,14 @@ For ex: in routing module , DETAILS and MAIN components have been added .. in ma
  if router-oulet is not der(in appcomponent html file) then ,the action of the linked details components wil not be loaded. 
  Only the URL path is changed as /details at the end of URL
 
+=======
+Index.html main file where the code starts.
+  <!-- title of the application page -->
+  <title>Practice DCoE</title>
+  <!-- simple routing configuration  and the blow line is default -->
+  <base href="/">
+  <!-- main body of the code -->
+  <body>
+    <app-root></app-root>
+  </body>
+>>>>>>> d7b256a117f61cf706a95f893b1e6e2e8e25f28e
