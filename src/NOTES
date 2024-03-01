@@ -1,0 +1,31 @@
+<!-- to create new project, takes time to install node modules -->
+ng new "project name"
+
+Index.html main file where the code starts.
+
+  <!-- title of the application page -->
+  <title>Practice DCoE</title>
+
+  <!-- simple routing configuration  and the below line is default -->
+  <base href="/">
+
+  <!-- main body of the code -->
+  <body>
+    <app-root></app-root>
+  </body>
+
+  <!-- generate components -->
+  ng g c "component name" ex: DETAILS in this project
+
+  under routing module.ts file add the path , where to redirect , component to run for that path****
+
+  <!-- when the component is created , the components keeps on adding under declarations in app.module.ts file -->
+
+# to initiate routing to the project components
+<router-outlet></router-outlet> in main html file to route to components .
+if the above outlet is not entered in main html file then, only the url wil be directed to the mentioned component but the action wont be executed to the directed component.
+For ex: in routing module , DETAILS and MAIN components have been added .. in main appcomponent html file we have added main component,
+<app-main></app-main> and it directs to main ---- in main we have put a button to click and when clicked ,
+ if router-oulet is not der(in appcomponent html file) then ,the action of the linked details components wil not be loaded. 
+ Only the URL path is changed as /details at the end of URL
+
