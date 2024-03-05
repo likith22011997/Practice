@@ -11,5 +11,10 @@ export class DetailsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  coudetails(){
+  console.log("COU Details Page");
+  }
+  dgldetails(){
+    console.log("DGU Details Page");
+  }
 }

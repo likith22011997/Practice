@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { DetailsComponent } from './details/details.component';
 import { MainComponent } from './main/main.component';
+import { COUComponent } from './cou/cou.component';
+import { DGLComponent } from './dgl/dgl.component';
 
 const routes: Routes = [
   // {
@@ -16,16 +17,18 @@ const routes: Routes = [
     component:MainComponent
   },
   {
-    path:'details',
+    path:'home',
     component: DetailsComponent
+  },
+  {
+    path:'COUDetails',
+    component: COUComponent
+  },
+  {
+    path:'DGLDetails',
+    component: DGLComponent
   }
 ];
-=======
-
-const routes: Routes = [
-];
-
->>>>>>> d7b256a117f61cf706a95f893b1e6e2e8e25f28e
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

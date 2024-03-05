@@ -4,17 +4,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import routermodule manually
 import { RouterModule,Routes } from '@angular/router';
-<<<<<<< HEAD
 import { DetailsComponent } from './details/details.component';
 import { MainComponent } from './main/main.component';
-=======
->>>>>>> d7b256a117f61cf706a95f893b1e6e2e8e25f28e
+import { COUComponent } from './cou/cou.component';
+import { DGLComponent } from './dgl/dgl.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DetailsComponent,
-    MainComponent
+    MainComponent,
+    COUComponent,
+    DGLComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
